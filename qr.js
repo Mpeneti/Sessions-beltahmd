@@ -59,34 +59,28 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id, { text: '' + b64data });
 	
 				   let SIGMA_MD_TEXT = `
-*𝙈𝘼𝘾 𝙈𝘿 𝘾𝙊𝙉𝙉𝙀𝘾𝙏𝙀𝘾𝙃*
-*𝙈𝘼𝘾 𝙏𝙀𝘾𝙃*
-*𝙇𝙀𝙂𝙄𝙏 𝘽𝙊𝙏*
-____________________________________
-╔════◇
-║『 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍𝙎』
 
-║ ❒ 𝙈𝘼𝘾 𝙏𝙀𝘾𝙃: _https://wa.me/256705036288_
 
-║ ❒ 𝙄𝘽𝙍𝘼𝙃𝙄𝙈 𝙏𝙀𝘾𝙃: _https://wa.me/message/74F2PC4JA4F3P1_
+*BELTAH-MD PAIR CODE SUCCESSFULLY CONNECTED*
+♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
+♡♡ *THANK YOU FOR CHOOSING BELTAH-MD* ♡♡
+♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
 
-╚════════════════════❒
-╔═════◇
-║ 『••• OWNER INFO •••』
-║ ❒ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: _https://www.youtube.com/@ibrahimmdgpt_
+*FOLLOW OUR CHANNEL*
+𓄂 *https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F*
 
-║ ❒ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/256705036288_
+*JOIN OUR GROUP*
+𓄂 *https://chat.whatsapp.com/CQvUnqaDK4fBjgMXvFEAsI*
 
-║ ❒ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/GoPZhE9zc6Y3ul0RnD4HXw_
+*VISIT FOR TUTORIALS*
+𓄂 *https://www.youtube.com/@Beltahtech2024*
 
-║ ❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VaWGyGVJZg48vgpHBa31_
+*DEVELOPER: BELTAH TECH*
+𓄂 *https://wa.me/254114141192*
 
-║ 
-╚════════════════════╝ 
- *𝙈𝘼𝘾 𝙈𝘿*
-___________________________________
+*POWERED BY BELTAH TECH AND MADE WITH 💎*
 
-Don't Forget To Give Star To My Repo`
+_Make sure you leave a Star To My Repo_`
 					
 	 await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
 
