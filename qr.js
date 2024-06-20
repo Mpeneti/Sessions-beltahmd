@@ -59,12 +59,8 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id, { text: '' + b64data });
 	
 				   let SIGMA_MD_TEXT = `
-*BELTAH-MD PAIR CODE SUCCESSFULLY CONNECTED*
-♡♡♡✨✨  ✨✨   ✨✨   ✨✨  ✨✨   ✨✨
-*BELTAH-MD PAIR CODE SUCCESSFULLY CONNECTED*
-♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
-♡♡ *THANK YOU FOR CHOOSING BELTAH-MD* ♡♡
-♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
+*✅BELTAH-MD QR CODE SUCCESSFULLY CONNECTED✅*
+
 
 *FOLLOW OUR CHANNEL*
 𓄂 *_https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F_*
@@ -72,7 +68,7 @@ router.get('/', async (req, res) => {
 *JOIN OUR GROUP*
 𓄂 *_https://chat.whatsapp.com/CQvUnqaDK4fBjgMXvFEAsI_*
 
-*BELTAH-MD REPO*
+*FORK AND STAR 🌟 THE REPO FOR COURAGE*
 𓄂 *_https://github.com/Beltahmd/beltah-md_*
 
 *VISIT FOR TUTORIALS*
@@ -81,9 +77,7 @@ router.get('/', async (req, res) => {
 *DEVELOPER: BELTAH TECH*
 𓄂 *_https://wa.me/254114141192_*
 
-*POWERED BY BELTAH TECH AND MADE WITH 💎*
-
-*_MAKE SURE YOU LEAVE A 🌟 To My REPO_*`
+*POWERED BY BELTAH TECH AND MADE WITH 💎*`
 					
 	 await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
 
