@@ -57,7 +57,7 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: '' + b64data });
 
                let SIGMA_MD_TEXT = `
-*✅BELTAH-MD PAIR CODE SUCCESSFULLY CONNECTED✅*
+*❒⁠⁠⁠⁠BELTAH-MD PAIR CODE CONNECTED❒⁠⁠⁠⁠*
 
 
 *FOLLOW OUR CHANNEL*
@@ -72,10 +72,10 @@ router.get('/', async (req, res) => {
 *VISIT FOR TUTORIALS*
 𓄂 *_https://www.youtube.com/@Beltahtech2024_*
 
-*DEVELOPER: BELTAH TECH*
+> *DEVELOPER: BELTAH TECH*
 𓄂 *_https://wa.me/254114141192_*
 
-*POWERED BY BELTAH TECH AND MADE WITH 💎*`
+> MADE ON EARTH BY BELTAH TECH 254🇰🇪 `
  await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
  
 
