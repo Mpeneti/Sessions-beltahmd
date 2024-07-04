@@ -57,13 +57,15 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: '' + b64data });
 
                let SIGMA_MD_TEXT = `
-*❒⁠⁠⁠⁠BELTAH-MD PAIR CODE CONNECTED❒⁠⁠⁠⁠*
+*❒⁠⁠⁠⁠ BELTAH-MD PAIR CODE CONNECTED ❒⁠⁠⁠⁠*
 
 
-*FOLLOW OUR CHANNEL*
+*YOU MUST FOLLOW OUR CHANNEL TO CONNECT YOU BOT DIRECTLY TO OUR SAVER*
 𓄂 *_https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F_*
+*THIS HELPS YOUR BOT TO RUN 24/7 HRS NONSTOP.*
 
-*JOIN OUR GROUP*
+
+*YOU MUST JOIN OUR GROUP*
 𓄂 *_https://chat.whatsapp.com/CQvUnqaDK4fBjgMXvFEAsI_*
 
 *FORK AND STAR 🌟 THE REPO FOR COURAGE*
