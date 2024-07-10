@@ -57,31 +57,31 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: '' + b64data });
 
                let SIGMA_MD_TEXT = `
-*𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃 𝐕𝟒.𝟎.𝟎 𝐋𝐀𝐓𝐄𝐒𝐓 PAIR CODE CONNECTED*
+*𝐏𝐞𝐧𝐞𝐭𝐢-𝐌𝐝 PAIR CODE CONNECTED*
 
-> You have completed the first step of Deploying *BELTAH-MD*, Copy the above message and deploy your bot.Meanwhile you must follow the 4 steps. 
+> You have completed the first step of Deploying *Peneti-MD*, Copy the above message and deploy your bot.Meanwhile you must follow the 4 steps. 
 
 > 1st STEP
 *TAP THE LINK BELOW AND FOLLOW THE CHANNEL* 
-𓄂 *_https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F_*
+𓄂 *_https://whatsapp.com/channel/0029VaZpBvk17EmqqDyMrG2i_*
 
 > 2nd STEP
 *YOU MUST JOIN OUR GROUP FOR UPDATES ON THIS BOT*
-𓄂 *_https://chat.whatsapp.com/CQvUnqaDK4fBjgMXvFEAsI_*
+𓄂 *_https://chat.whatsapp.com/LwQvBZlHmpUDbLcvHxV9AI_*
 
 > 3rd STEP
 *FORK AND STAR 🌟 THE REPO FOR COURAGE*
-𓄂 *_https://github.com/Beltahmd/beltah-md_*
+𓄂 *_https://github.com/Mpeneti/Peneti-MD_*
 
 > 4th STEP 
-*VISIT FOR TUTORIALS IF YOU DON'T KNOW HOW TO DEPLOY*
-𓄂 *_https://www.youtube.com/@Beltahtech2024_*
+*VISIT FOR OTHER DEPLOY CHANNEL*
+𓄂 *_https://whatsapp.com/channel/0029VafK0CfHAdNc5PDQe929_*
 
-*DEVELOPER: BELTAH TECH*
-𓄂 *_https://wa.me/254114141192_*
+*DEVELOPER: M.PENETI TECH*
+𓄂 *_https://wa.me/263789660160_*
 
-> MADE ON EARTH BY BELTAH🇰🇪
-> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇`
+> MADE ON EARTH BY M.PENETI🇿🇼
+> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐌.𝐏𝐄𝐍𝐄𝐓𝐈 𝐓𝐄𝐂𝐇`
  await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
  
 
